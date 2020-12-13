@@ -84,7 +84,17 @@ form.sign-in-form {
 }
 .alert{
   padding: 1rem;
-  background-color: #ffc9c9;
+  color: #721c24;
+  background-color: #f8d7da;
+  max-width: 380px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.success{
+  padding: 1rem;
+  color: #155724;
+  background-color: #d4edda;
   max-width: 380px;
   width: 100%;
   border-radius: 10px;

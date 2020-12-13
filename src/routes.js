@@ -6,6 +6,8 @@ import Signin from './pages/signin';
 import Signup from './pages/signup';
 import Home from './pages/home';
 import Chat from './pages/chat';
+import Recovery from './pages/recovery';
+import Reset from './pages/reset';
 import AuthContext from './contexts/auth';
 
 
@@ -43,6 +45,8 @@ export default function Routes() {
           <Route exact path="/" component={Home}/>
           <Route path="/sign-in" component={Signin}/>
           <Route path="/sign-up" component={Signup}/>
+          <Route path="/recovery-password" component={Recovery}/>
+          <Route path="/reset-password/:token" component={Reset}/>
 
           <PriveteRoute path="/chat" component={Chat}/>
         </Switch>

@@ -1,0 +1,18 @@
+.recovery-form{
+  margin-top: 80px;
+  z-index: 10000;
+}
+
+.recovery.container-auth {
+  height: 100vh;
+  min-height: auto;
+}
+.recovery.container-auth.sign-up-mode:before {
+  transform: translate(-50%, 100%);
+  bottom: 28%;
+  right: initial;
+  /* width: 1500px; */
+  height: 1500px;
+  left: 50%;
+  top: initial;
+}
