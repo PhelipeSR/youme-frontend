@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom';
-import Container from '../components/container';
-import Panel from '../components/panel';
-import ForSignin from '../components/form/index';
 
+import Panel from '../components/panel';
+import FormSignin from '../components/form/formSignin';
+import Container from '../components/container';
 import '../styles/pages/signin.css';
 import LoginImg from '../images/login.svg'
 
 
-function Signin() {
+export default function Signin() {
   return (
     <Container>
       <div className="form-container">
         <div className="signin-signup">
-          <ForSignin form="sign-in-form"/>
+          <FormSignin form="sign-in-form"/>
         </div>
       </div>
 
@@ -30,4 +30,3 @@ function Signin() {
   );
 }
 
-export default Signin;

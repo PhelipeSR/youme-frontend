@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
-import Container from '../components/container';
-import Panel from '../components/panel';
-import { FormSignup } from '../components/form';
 
+import Panel from '../components/panel';
+import FormSignup from '../components/form/formSignup';
+import Container from '../components/container';
 import '../styles/pages/signin.css';
 import RegisterImg from '../images/register.svg'
 
 
-function Signup() {
+export default function Signup() {
   return (
     <Container mode="sign-up-mode">
       <div className="form-container">
@@ -31,6 +31,3 @@ function Signup() {
     </Container>
   );
 }
-
-export default Signup;
-
