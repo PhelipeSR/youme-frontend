@@ -73,12 +73,12 @@ form.sign-in-form {
   text-align: right;
 }
 
-.container.sign-up-mode form.sign-up-form {
+.container-auth.sign-up-mode form.sign-up-form {
   opacity: 1;
   z-index: 2;
 }
 
-.container.sign-up-mode form.sign-in-form {
+.container-auth.sign-up-mode form.sign-in-form {
   opacity: 0;
   z-index: 1;
 }
@@ -92,13 +92,13 @@ form.sign-in-form {
 }
 
 @media (max-width: 870px) {
-  .container.sign-up-mode .left-panel .image,
-  .container.sign-up-mode .left-panel .content {
+  .container-auth.sign-up-mode .left-panel .image,
+  .container-auth.sign-up-mode .left-panel .content {
     transform: translateY(-300px);
   }
 
-  .container.sign-up-mode .right-panel .image,
-  .container.sign-up-mode .right-panel .content {
+  .container-auth.sign-up-mode .right-panel .image,
+  .container-auth.sign-up-mode .right-panel .content {
     transform: translateY(0px);
   } 
 }
@@ -109,7 +109,7 @@ form.sign-in-form {
   }
 
   
-  .container.sign-up-mode:before {
+  .container-auth.sign-up-mode:before {
     bottom: 28%;
     left: 50%;
   }

@@ -11,7 +11,7 @@
 }
 
 
-.container.sign-up-mode .signin-signup {
+.container-auth.sign-up-mode .signin-signup {
   left: 25%;
 }
 
@@ -23,24 +23,24 @@
     transition: 1s 0.8s ease-in-out;
   }
 
-  .container.sign-up-mode:before {
+  .container-auth.sign-up-mode:before {
     transform: translate(-50%, 100%);
     bottom: 32%;
     right: initial;
   }
 
   .signin-signup,
-  .container.sign-up-mode .signin-signup {
+  .container-auth.sign-up-mode .signin-signup {
     left: 50%;
   }
 
-  .container.sign-up-mode .signin-signup {
+  .container-auth.sign-up-mode .signin-signup {
     top: 5%;
     transform: translate(-50%, 0);
   }
 }
 @media (max-width: 570px) {
-  .container.sign-up-mode:before {
+  .container-auth.sign-up-mode:before {
     bottom: 28%;
     left: 50%;
   }

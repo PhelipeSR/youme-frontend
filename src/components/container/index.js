@@ -1,12 +1,12 @@
 import './container.css'
 
 
-function Container(props) {
+function ContainerAuth(props) {
   return (
-    <div className={`container ${props.mode}`}>
+    <div className={`container-auth ${props.mode}`}>
       {props.children}
     </div>
   );
 }
 
-export default Container;
+export default ContainerAuth;

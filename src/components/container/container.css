@@ -1,4 +1,4 @@
-.container {
+.container-auth {
   position: relative;
   width: 100%;
   background-color: #fff;
@@ -14,7 +14,7 @@
   left: 0;
 }
 
-.container:before {
+.container-auth:before {
   content: "";
   position: absolute;
   height: 2000px;
@@ -39,7 +39,7 @@
 }
 
 @media (max-width: 870px) {
-  .container {
+  .container-auth {
     min-height: 800px;
     height: 100vh;
   }
@@ -47,7 +47,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
   }
-  .container:before {
+  .container-auth:before {
     width: 1500px;
     height: 1500px;
     transform: translateX(-50%);
@@ -60,11 +60,11 @@
 }
 
 @media (max-width: 570px) {
-  .container {
+  .container-auth {
     padding: 1.5rem;
   }
 
-  .container:before {
+  .container-auth:before {
     bottom: 72%;
     left: 50%;
   }

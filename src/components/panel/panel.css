@@ -44,7 +44,7 @@
 .right-panel .content {
   transform: translateX(800px);
 }
-.container.sign-up-mode .left-panel {
+.container-auth.sign-up-mode .left-panel {
   pointer-events: none;
 }
 
@@ -82,18 +82,18 @@
   font-size: 0.8rem;
 }
 
-.container.sign-up-mode:before {
+.container-auth.sign-up-mode:before {
   transform: translate(100%, -50%);
   right: 52%;
 }
 
-.container.sign-up-mode .left-panel .image,
-.container.sign-up-mode .left-panel .content {
+.container-auth.sign-up-mode .left-panel .image,
+.container-auth.sign-up-mode .left-panel .content {
   transform: translateX(-800px);
 }
 
-.container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content {
+.container-auth.sign-up-mode .right-panel .image,
+.container-auth.sign-up-mode .right-panel .content {
   transform: translateX(0%);
 }
 
